@@ -31,7 +31,7 @@ bot_development_server = "https://discord.gg/ZVJasmz"
 bot_source = "https://github.com/FevenKitsune/Fox-Utilities"
 
 # Config Variables
-bot_prefix = "f."  # Default prefix
+bot_prefix = "."  # Default prefix
 testing_bot_prefix = "f!"
 bot_default_status = "with code."  # Default status
 bot_description = "Fox Utilities is a utility bot covering a selection of niche functions to assist in server administration."  # Discord.Bot description input
@@ -47,5 +47,5 @@ There are multiple options here, if you don't want to mess around with environme
 Environment Variable option and uncomment the key option. Make sure you keep your key safe! The developer will never
 ask for your key.
 """
-bot_key = os.environ['FU_KEY']  # Environment Variable option
+bot_key = "token
 # bot_key = "KEY_HERE"
